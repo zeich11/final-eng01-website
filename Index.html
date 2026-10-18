@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>LI101001 English I – ข้อสอบจำลอง Units 3–4</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;600;700&display=swap">
+<style>
+:root{--bg:#f4f6fb;--card:#fff;--ink:#14213d;--mute:#5b6784;--line:#d9dfec;--acc:#1f4fd8;--ok:#177a43;--okbg:#e3f5ea;--no:#b3261e;--nobg:#fdeae8;--sel:#e8eefc;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#10162a;--card:#1a2240;--ink:#e8ecf8;--mute:#9aa6c8;--line:#2d3760;--acc:#7da2ff;--ok:#6fdc9c;--okbg:#17352a;--no:#ff8f86;--nobg:#3a1f22;--sel:#24305c}}
+:root[data-theme="dark"]{--bg:#10162a;--card:#1a2240;--ink:#e8ecf8;--mute:#9aa6c8;--line:#2d3760;--acc:#7da2ff;--ok:#6fdc9c;--okbg:#17352a;--no:#ff8f86;--nobg:#3a1f22;--sel:#24305c}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 Sarabun,"Noto Sans Thai",system-ui,sans-serif}
+header{position:sticky;top:env(safe-area-inset-top,0px);background:var(--bg);padding:12px 16px 8px;border-bottom:1px solid var(--line);z-index:5}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--bg);z-index:10}
+h1{font-size:18px;margin:0 0 8px}
+.bar{height:6px;background:var(--line);border-radius:3px;overflow:hidden}
+.bar i{display:block;height:100%;width:0;background:var(--acc);transition:width .25s}
+.stat{display:flex;justify-content:space-between;font-size:13px;color:var(--mute);margin:6px 0 8px}
+nav{display:flex;gap:6px;overflow-x:auto}
+nav button{flex:1;min-width:84px;padding:8px 6px;border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:8px;font:inherit;font-size:14px}
+nav button[aria-selected=true]{background:var(--acc);color:#fff;border-color:var(--acc)}
+nav small{display:block;font-size:12px;opacity:.85}
+main{max-width:720px;margin:0 auto;padding:12px 16px 40px}
+.pass{background:var(--card);border-left:4px solid var(--acc);padding:12px 14px;margin:0 0 14px;border-radius:6px;font-size:15px}
+.pass h3{margin:0 0 6px;font-size:16px}
+.pass p{margin:0 0 8px}
+.q{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px;margin:0 0 12px}
+.q p{margin:0 0 10px;font-weight:600}
+.opt{display:block;width:100%;text-align:left;padding:10px 12px;margin:0 0 6px;border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:8px;font:inherit;font-size:15px;cursor:pointer}
+.opt:active{background:var(--sel)}
+.opt.ok{background:var(--okbg);border-color:var(--ok);color:var(--ok);font-weight:600}
+.opt.no{background:var(--nobg);border-color:var(--no);color:var(--no)}
+.opt:disabled{cursor:default}
+.opt:focus-visible,nav button:focus-visible,.act:focus-visible{outline:3px solid var(--acc);outline-offset:2px}
+.res{font-size:14px;margin:6px 0 0;color:var(--mute)}
+.sum{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px;margin-top:8px}
+.sum div{display:flex;justify-content:space-between;padding:4px 0;border-bottom:1px solid var(--line)}
+.act{margin-top:12px;padding:10px 16px;border:0;border-radius:8px;background:var(--acc);color:#fff;font:inherit;font-weight:600}
+</style>
+</head>
+<body>
+<header>
+<h1>LI101001 English I – ข้อสอบจำลอง Units 3–4</h1>
+<div class="bar"><i id="pb"></i></div>
+<div class="stat"><span id="st1"></span><span id="st2"></span></div>
+<nav id="sets" style="margin-bottom:8px"></nav>
+<nav id="tabs" role="tablist"></nav>
+</header>
+<main id="app"></main>
+<script>
+var RAW = `#Vocabulary|ตอบแล้วเห็นเฉลยทันที
+Ploy checks her email only twice a day so she can _____ while writing her essay.|fall behind schedule|avoid distractions|meet a deadline|lose concentration|B
+The team worked all weekend and managed to _____ for the Monday presentation.|meet the deadline|lose concentration|fall behind schedule|keep to a routine|A
+Tom wakes up at 6, studies at 7, and exercises at 5 every day. He _____.|gets something out of the way|deals with a challenge|keeps to a routine|falls behind schedule|C
+I finished the tax forms first to get them _____.|behind schedule|out of the way|a lot done|concentration|B
+She accepted a _____ job that lasted only six weeks.|permanent|temporary|regular|full-time|B
+Working at the café gave him valuable _____ in dealing with customers.|experience|deadline|scheme|exploit|A
+A good manager must _____ responsibility for the team’s mistakes.|exploit|handle|take|organise|C
+Some employers _____ young workers by paying them very little for long hours.|organise|exploit|handle|permit|B
+Because nobody could prove the story, many people began to _____ it.|doubt|deceive|come clean|live a lie|A
+The fraudster’s _____ involved fake documents and a false name.|truth|scheme|doubt|relief|B
+After years of lying, she decided to _____ and tell her family everything.|pretend|make up|come clean|deceive|C
+The advert tried to _____ customers by hiding the real price.|doubt|deceive|tell the truth|come clean|B
+The first hour was so _____ that several people almost fell asleep.|shocking|slow|powerful|extraordinary|B
+We expected a great film, but it was _____.|disappointing|enjoyable|extraordinary|intelligent|A
+It is an _____ film that makes you think about difficult questions.|intelligent|slow|disappointing|ordinary|A
+The rescue scene was so _____ that I could not stop watching.|disappointing|slow|dramatic|ordinary|C
+Workers will _____ tomorrow unless the company improves their pay.|escape|strike|rescue|subscribe|B
+A _____ news alert appeared on my phone: a bridge had just collapsed.|biased|breaking|trending|ordinary|B
+The firefighters _____ a child from the burning house.|arrested|quit|rescued|escaped|C
+The reporter was criticised because her article was _____ and ignored the other side.|biased|breaking|live|trending|A
+#Grammar|ดูความหมายก่อน แล้วค่อยเช็กรูปประโยค
+_____ printer failure, please contact the IT office.|Unless|In case of|Even if|In case|B
+I’ll take an umbrella _____ it rains later.|unless|even if|in case|in case of|C
+_____ you hurry, you will miss the last bus.|Even if|In case|Unless|In case of|C
+I will not change my mind _____ you offer me more money.|even if|unless|in case of|in case|A
+Passengers _____ use their phones during take-off. They must switch them off.|are permitted to|are not allowed to|have got to|are essential to|B
+_____ to back up your files every week.|It is essential|It is allowed|It is supposed|It has got|A
+The windows _____ cleaned before the guests arrive.|need to|need to be|are needing|need being|B
+Which sentence is the most formal?|You can leave now.|You’re allowed to leave now.|You may leave now.|You are permitted to leave now.|D
+I’d _____ not go out tonight; I’m very tired.|rather|prefer|prefer to|better|A
+She prefers cycling _____ driving to work.|than|to|rather|for|B
+Would you prefer _____ by the window or near the door?|sit|sitting|to sit|sat|C
+Which sentence shows the strongest preference?|I’d go for the cheaper room.|I’d far rather stay at home.|I prefer staying at home.|I might stay at home.|B
+I _____ call my grandmother yesterday, but I forgot.|meant to|was expecting|hoping|thought it would|A
+They _____ open the shop in May, but the builders were late.|are going to|were going to|have to|would to|B
+We chose this hotel because we _____ quiet.|thought it would be|were going to|meant|were hoping to|A
+Which sentence means the speaker did NOT do it on purpose?|I intended to break it.|I didn’t mean to break it.|I was going to break it.|I planned to break it.|B
+Could you tell me _____?|what time does the museum open|what time opens the museum|what time the museum opens|what time did the museum open|C
+I wonder how much _____.|does it cost|it costs|costs it|did it cost|B
+“Isn’t this documentary on tonight?” The speaker probably _____.|has no idea at all|wants to cancel it|thinks it is on tonight|is giving an order|C
+Which is the correct indirect question?|Do you know where is the station?|Do you know where does the station is?|Do you know where the station is?|Do you know where the station does?|C
+#Conversation|เลือกประโยคตอบที่เป็นธรรมชาติที่สุด
+A: I always lose concentration after lunch. B: _____|Why not take a short walk before you start again?|I meant to call you.|I would rather a film.|It’s all over the news.|A
+A: Can you send me the slides by 5 p.m.? B: _____|Apparently, it was a scam.|Sure. I’ll make sure I meet the deadline.|Didn’t it win an award?|I’d rather tea.|B
+A: What’s your trick for working from home? B: _____|I set small goals and keep my phone in another room.|That sounds scary.|They came clean.|It’s trending.|A
+A: I’m falling behind schedule on my project. B: _____|That’s a relief.|You are not permitted to.|Have you thought about asking your team for help?|How long is the film?|C
+A: Gig work doesn’t give you a stable income. B: _____|That’s true, but some people like the flexibility.|Yes. Always.|It has gone viral.|I meant to.|A
+A: Would you rather have a permanent job or do gig work? B: _____|I’m allowed to.|It’s on all the news channels.|Unless it rains.|I’d go for gig work because I want to choose my own hours.|D
+A: Gig workers have to find their own clients. B: _____|That’s a relief.|Exactly, so they need to take responsibility for their own work.|Apparently, nobody was hurt.|I can hardly believe it was a film.|B
+Which response agrees partly and gives a reason?|Totally wrong.|I agree up to a point, but gig workers may not have paid holidays.|Maybe.|I have no opinion.|B
+A: Did you hear that the story was completely made up? B: _____|Yes, I’d rather work alone.|It’s a documentary.|You may enter.|Really? Who invented it, and why?|D
+A: He lived a lie for ten years. B: _____|Could you tell me where the film starts?|That’s hard to imagine. How did he keep it secret?|I prefer working alone.|Take a charger.|B
+A: Why did she finally come clean? B: _____|Because she preferred tea.|Because it was breaking news.|Because the lie had become too stressful to keep.|Because she was allowed to.|C
+Which is the best way to retell a hoax?|Only give the ending.|Say “I don’t know.”|Ask about the weather.|Describe the setup, the lie, who believed it, and the truth.|D
+A: What did you think of the film? B: _____|It’s on at nine.|I’d rather tea.|It was slow at first, but the ending was really powerful.|Unless it rains.|C
+A: Do you know where the documentary was filmed? B: _____|It was really shocking.|In northern Thailand, I think.|Because it was powerful.|I’d go for the train.|B
+A: Can you recommend something to watch tonight? B: _____|You are not permitted to.|Where did they film?|I’ve been waiting for it.|Try the new nature documentary. It’s extraordinary.|D
+Which question politely asks about a film?|Where is it on?|Could you tell me when the film finishes?|When does finish the film?|Tell me when finishes.|B
+A: Have you heard about the bus strike? B: _____|I’d much rather walk.|It’s allowed to.|Yes, I saw it on the news. It’s received a lot of coverage.|Unless I can.|C
+A: Apparently, a monkey escaped from the zoo. B: _____|I can hardly believe it! Was anyone hurt?|I prefer working alone.|It’s essential to.|They intended to.|A
+A: Nobody was injured in the fire. B: _____|Have you heard about it?|So, basically, what happened was a fire.|That’s a relief.|It’s all over the news.|C
+Which phrase is used to START a news conversation?|That’s a relief.|I can’t remember the details, but basically …|I can hardly believe it.|Did you hear the news about the train delay?|D
+#Reading|อ่านบทความ แล้วหาหลักฐานในเนื้อเรื่องก่อนตอบ
+@AI Translation at Work|Last year, Arm’s company introduced an AI tool that translates customer emails into English. At first, the staff were delighted because the tool saved hours every week. However, a manager soon noticed that some translations sounded polite but changed the customer’s meaning. For example, a complaint was translated as a simple question, and the company replied too late.|After this, the team made a new rule: a staff member who speaks the customer’s language must check important messages before they are sent. The manager said the tool was useful, but it could not understand feelings and context as well as a person. Arm now uses the AI for first drafts only and spends the saved time on difficult cases.
+What is the passage mainly about?|How a company uses AI but adds human checking|Why AI translation is impossible|How Arm lost her job|Why customers prefer emails|A
+What problem did the manager notice?|The tool was too slow.|Some translations changed the meaning of the message.|Customers refused to use email.|Staff did not enjoy the tool.|B
+What does “this” in “After this” (Paragraph 2) refer to?|The introduction of the tool|The saving of hours each week|The manager’s decision to retire|The mistranslated complaint and the late reply|D
+According to the manager, why can’t the tool replace people completely?|It is too expensive.|It cannot write drafts.|It cannot understand feelings and context as well as a person.|It only works in one language.|C
+@The Free Phone Post|A post appeared on social media: “Win a free phone! Share this post with ten friends and send your bank details to claim your prize.” The post used the logo of a famous phone brand and already had thousands of shares. Mali was excited, but she noticed that the account had been created only two days earlier and that the page had no other posts. She also saw that the real company’s website did not mention any giveaway.|Mali decided not to share the post, and she reported it. Two days later, the platform removed the page. Her friend, who had shared the post and sent his details, later lost money from his bank account. Mali now says that a famous logo and a large number of shares are not proof that something is true.
+Why did many people probably share the post?|It had a famous logo and many shares.|It was posted by the real company.|Their friends were paid to share it.|It included an official link.|A
+What made Mali suspicious?|The post was too long.|The account was new and the company’s website mentioned no giveaway.|The prize was a car.|It was posted at night.|B
+What does “it” in “she reported it” refer to?|the real company’s website|the new phone|her friend’s account|the post|D
+What is the main lesson of the passage?|Never use social media.|Check the source before sharing or giving personal details.|Always trust posts with many shares.|Only famous brands are honest.|B`;
+
+var KEY = "li101001-quiz-b";
+function load() { try { return JSON.parse(localStorage.getItem(KEY)) || {}; } catch (e) { return {}; } }
+function save() { try { localStorage.setItem(KEY, JSON.stringify(ans)); } catch (e) {} }
+var RAW_A = `#Vocabulary|ข้อสอบจากคู่มือ: คำศัพท์ 3A–4C
+Which phrase means “finish work by the required time”?|fall behind schedule|get a lot done|meet a deadline|keep to a routine|C
+Mew turns off app notifications so she can _____.|avoid distractions|keep to a routine|get a lot done|lose concentration|A
+If you ignore important tasks for several days, you may _____.|keep to a routine|fall behind schedule|meet a deadline|get something out of the way|B
+When a client changes the brief at the last minute, the team must _____.|lose concentration|get a lot done|keep to a routine|deal with the challenge|D
+I start with the hardest task so I can _____ before lunch.|lose concentration|fall behind schedule|deal with a challenge|get it out of the way|D
+After several interruptions, Nita began to _____.|lose concentration|meet a deadline|keep to a routine|get a lot done|A
+A gig worker is usually paid for a _____ job rather than a permanent position.|long-term|temporary|permanent|full-time|B
+Freelancers often have to _____ finding their own clients.|be allowed to|deal with|take responsibility for|be in charge of|C
+Which word means knowledge or skill gained by doing a job?|experience|opportunity|permanent|temporary|A
+A person who successfully manages a difficult work situation can _____ it.|arrange|permit|expect|handle|D
+The student committee needs someone to _____ the event schedule, room bookings, and speaker list.|exploit|organise|experience|permit|B
+A company may _____ gig workers if it pays unfairly low rates and gives them no protection.|handle|experience|exploit|offer|C
+Someone _____ a false story about free concert tickets, and many students believed it.|came clean about|made up|told the truth about|doubted|B
+After hiding the mistake for a week, he finally _____.|pretended|lived a lie|deceived everyone|came clean|D
+If you _____ someone, you make that person believe something false.|deceive|doubt|come clean|tell the truth|A
+If you are uncertain whether a story is true, you _____ it.|pretend|make up|doubt|come clean|C
+He _____ to be a doctor online, although he had never studied medicine.|pretended|doubted|came clean|told the truth|A
+The dishonest plan to trick customers was a carefully organised _____.|truth|doubt|lie|scheme|D
+A film that is “powerful” has _____.|a very slow pace|a strong emotional effect|a simple predictable story|a light humorous tone|B
+If a film is “disappointing,” it is usually _____.|not as good as expected|more exciting than expected|unusually intelligent|extremely dramatic|A
+A film described as _____ makes a strong emotional impression.|slow|disappointing|powerful|ordinary|C
+A documentary with surprising and impressive events may be described as _____.|slow|disappointing|ordinary|extraordinary|D
+The ending was so _____ that the whole class gasped in surprise.|slow|enjoyable|intelligent|shocking|D
+The documentary was very _____; its message stayed with me for days.|powerful|disappointing|slow|ordinary|A
+A story that is _____ is currently being discussed by many people online.|breaking|live|trending|biased|C
+A report that unfairly supports one side is _____.|breaking|biased|trending|live|B
+The police _____ a suspect after the robbery.|rescued|reported|announced|arrested|D
+Please _____ to the channel if you want regular news updates.|subscribe|announce|bias|arrest|A
+Bus drivers plan to _____ on Monday to demand safer working conditions.|rescue|strike|escape|quit|B
+The minister resigned after a financial _____ involving public money.|update|rescue|headline|scandal|D
+#Grammar|ข้อสอบจากคู่มือ: ไวยากรณ์ 3A–4B
+_____ you organise the tasks today, the group will be rushed tomorrow.|In case|Unless|In case of|Even if|B
+I will attend the workshop _____ I have to travel across town.|unless|in case of|in case|even if|D
+Bring a printed copy _____ the Wi-Fi is unavailable.|unless|even if|in case|in case of|C
+_____ an emergency, leave through the nearest exit.|In case of|Even if|Unless|In case|A
+All equipment _____ before the event starts.|needs to be checked|needs checking to|is supposed checking|needs to check|A
+I _____ send the invoice today because the client is waiting.|am allowed to|am permitted to|have got to|need to be sent|C
+Employees are not _____ to share customer passwords.|essential|allowed|supposed|necessary|B
+Which option is the most formal?|You can enter.|You may go in.|You are allowed to enter.|You are permitted to enter.|D
+I _____ take an internship with flexible hours than one with a long commute.|prefer|would prefer|rather|would rather|D
+I prefer _____ in a quiet place _____ studying in a busy café.|to study / than|studying / to|study / than|studied / to|B
+For today’s meeting, I would prefer _____ online.|meeting|meet|to meet|met|C
+Which sentence expresses the strongest preference?|I would much rather take the train.|I would prefer to take the train.|I prefer the train to the bus.|I can take the train.|A
+Take a power bank _____ your phone battery runs out during the trip.|in case|unless|even if|in case of|A
+_____ the pay is good, I would not accept a job that is unsafe.|In case|Unless|Even if|In case of|C
+Visitors are not _____ to photograph confidential documents.|necessary|essential|supposed|allowed|D
+The final report _____ before the manager arrives.|needs finishing to|needs to be finished|needs to finish|is supposed finishing|B
+We _____ visit the museum, but it was closed for repairs.|were going to|were expecting to|thought it would|were hoping it|A
+I _____ send you the file last night, but I fell asleep.|was expecting to|was planning it|meant to|thought it would|C
+The organisers _____ attract about 100 people, but more than 300 came.|were going to|meant to|planned to|were expecting to|D
+Which sentence most clearly describes a formal intention?|We were thinking about publishing the report.|We intended to publish the report.|We hoped the report might appear.|We expected the report to be popular.|B
+Could you tell me _____?|where does the film start|where did the film start|where starts the film|where the film starts|D
+Do you know why _____ this topic?|she chose|did she choose|does she choose|she did choose|A
+“Didn’t the film win an award?” mainly checks or confirms _____.|a request for permission|a plan for the future|a belief the speaker already has|a choice between two films|C
+Which question sounds more polite and indirect?|Where can I watch it?|Could you tell me where I can watch it?|Where I can watch it?|Tell me where I can watch it.|B
+#Conversation|ข้อสอบจากคู่มือ: บทสนทนา 3A–4C
+A: I have two assignments due tomorrow and I am already behind schedule. B: _____|Why don’t you get the most urgent one out of the way first?|You should lose concentration.|I can hardly believe it.|It has received a lot of coverage.|A
+A: How do you stay focused when you work from home? B: _____|I fall behind schedule every day.|I keep to a routine and turn off notifications.|I would rather a documentary.|Apparently, it was cancelled.|B
+A: I keep getting distracted by my phone. B: _____|That’s a relief.|You are permitted to be distracted.|You could put it in another room while you study.|What did they pretend?|C
+A: Will you finish the report by five? B: _____|I prefer working alone to working in groups.|Really? I had no idea.|It is an extraordinary documentary.|Yes. If I keep to my schedule, I should meet the deadline.|D
+A: Gig work gives people more freedom. B: _____|I agree up to a point, but the income can be uncertain.|Could you tell me where the film starts?|That sounds scary.|I was going to call you.|A
+A: Why might someone choose gig work? B: _____|Because it is always permanent.|Because they may be able to choose when and where they work.|Because they are not allowed to work.|Because every gig has the same salary.|B
+A: I think permanent work is always better. B: _____|I completely agree that all work is temporary.|That’s a relief.|I’m not sure about that. Gig work can suit people who need flexibility.|Apparently, the film was dramatic.|C
+Which response best develops a discussion about gig work?|Yes.|No.|Maybe.|I agree, and another advantage is that workers can combine different jobs.|D
+A: What did they pretend? B: _____|They pretended to be American rappers.|They were permitted to be late.|They preferred documentaries.|They kept to a routine.|A
+A: They fooled people for a long time. B: _____|It is on all the news channels.|Really? How did they manage to do that?|I would rather work from home.|You are allowed to leave.|B
+A: Did they tell the truth in the end? B: _____|No, documentaries are dramatic.|They had to meet a deadline.|Yes, they eventually came clean.|They were trending.|C
+Which question best explores a hoax story?|Would you rather tea or coffee?|Are you allowed to park here?|How long is the documentary?|Who did they deceive, and what happened when the truth came out?|D
+A: I’m looking for a documentary about the environment. B: _____|You might like this one. It’s powerful and very informative.|You should fall behind schedule.|They pretended to be rich.|It was breaking news.|A
+A: Could you tell me what the film is about? B: _____|Where does the film start?|It follows a rescue team working in extreme conditions.|Would you rather a teacher?|It has gone viral.|B
+A: I thought the documentary was disappointing. B: _____|You are permitted to watch it.|Did they come clean?|Really? I found it very dramatic and powerful.|Unless you watch it.|C
+Which question politely asks for information about a documentary?|Where it was filmed?|Tell me where was it filmed.|Didn’t filmed it there?|Could you tell me where it was filmed?|D
+Which phrase best STARTS a news conversation?|Apparently, the event was cancelled.|I can hardly believe it.|It has received a lot of coverage.|Have you heard about the campus announcement?|D
+“So, basically, what happened was ...” is used to _____.|summarise the story|introduce a new source|show strong surprise|comment on media coverage|A
+Which response expresses surprise or disbelief at unexpected news?|That’s a relief.|It’s all over the news.|I can hardly believe it.|Have you heard about it?|C
+Which phrase comments on how much media attention a story has received?|Did you hear the news about ...?|It’s received a lot of coverage.|That sounds scary.|So, basically, what happened was ...|B
+#Reading|ข้อสอบจากคู่มือ: อ่านบทความ 2 บท
+@AI in the Workplace|When Pim started a three-month internship at a travel company, she expected to spend most of her time answering emails and updating spreadsheets. On her first day, however, her supervisor introduced an AI assistant that the team used for routine tasks. It could organise meeting notes, suggest short replies to common questions, and create a first draft of simple reports.|At first, Pim worried that the software might make interns less useful. After a few weeks, she noticed the opposite. Because the AI handled repetitive tasks quickly, she had more time to talk to customers, compare travel options, and solve unusual problems. These tasks required judgement and communication, especially when a customer’s request was unclear.|The team also learned that speed did not always mean accuracy. Once, the AI suggested an old visa rule that had already changed. Pim found the mistake because she checked the information on an official government website. Her supervisor used the incident to remind everyone that AI output should be treated as a starting point, not a final answer.|By the end of the internship, Pim no longer saw AI as a replacement for people. She saw it as a tool that could reduce routine work if employees used it carefully. In her view, the most valuable workers were not the people who could type the fastest, but those who could ask good questions, check evidence, and explain information clearly to others.
+What is the main idea of the passage?|AI can support workers, but people still need judgement and verification.|AI should replace all routine workplace communication.|Travel companies should stop using AI for customer service.|Interns become less useful when companies introduce AI.|A
+Why did Pim have more time to talk to customers?|Her supervisor shortened the internship.|Customers stopped sending routine questions.|The company removed all deadlines.|The AI handled repetitive tasks.|D
+What does “the opposite” in Paragraph 2 refer to?|The company stopped using AI after one week.|AI made interns more useful by freeing time for higher-value work.|Interns were given fewer responsibilities than before.|Pim discovered that every AI answer was accurate.|B
+Why is the visa example important?|It proves that official websites are difficult to use.|It shows that AI should never answer travel questions.|It shows why AI information should be checked.|It explains why Pim stopped speaking with customers.|C
+@Fake News|On a Sunday evening, a screenshot began circulating in a university group chat. It claimed that all Monday classes had been cancelled because of a water problem. The image looked official: it used the university logo and a formal-looking announcement style. Within twenty minutes, dozens of students had forwarded it to friends.|Nok almost shared it too, but two details made her doubt the message. First, the announcement had no date or link to an official page. Second, the wording was unusually emotional and told students to “SHARE NOW BEFORE IT IS DELETED.” She checked the university website and official social-media account, but neither mentioned a closure.|Later that night, the university posted an update confirming that classes would continue as normal. Staff explained that the screenshot had copied an old notice about a different building and changed several lines. By that time, however, many students had already changed travel plans or told classmates not to come to campus.|The incident showed how easily false information can spread when a message looks familiar and creates urgency. A useful habit is to pause before sharing: check the date, source, link, and whether another reliable source confirms the same information. A message that makes you feel shocked or rushed is not automatically false, but strong emotion is a good reason to verify before passing it on.
+Why did many students first believe the screenshot?|Several classmates said the message was probably true.|The announcement included a link to a government website.|A lecturer confirmed the cancellation in class.|It looked official and used the university logo.|D
+Which detail first made Nok suspicious?|The message mentioned Monday classes.|There was no date or official link.|The screenshot used the university logo.|The message arrived on Sunday evening.|B
+What does “neither” in Paragraph 2 refer to?|The website and official social-media account|The date and the official link|The screenshot and the university logo|Nok and her classmates|A
+How was the fake announcement created?|It was generated from a completely new notice.|It was written by the official university office.|It copied an old notice and changed some lines.|It was taken from a live news report.|C`;
+function parse(raw) {
+  var ps = [], n = 0;
+  raw.split("\n").forEach(function (ln) {
+    if (ln[0] === "#") { var h = ln.slice(1).split("|"); ps.push({ name: h[0], tip: h[1], items: [] }); }
+    else if (ln[0] === "@") { var p = ln.slice(1).split("|"); ps[ps.length - 1].items.push({ pass: p[0], paras: p.slice(1) }); }
+    else { var f = ln.split("|"); ps[ps.length - 1].items.push({ n: ++n, q: f[0], o: f.slice(1, 5), a: "ABCD".indexOf(f[5]) }); }
+  });
+  return { parts: ps, total: n };
+}
+var SETS = { A: { label: "ชุด A (82 ข้อ)", key: "li101001-quiz-a", d: parse(RAW_A) }, B: { label: "ชุด B (68 ข้อ)", key: "li101001-quiz-b", d: parse(RAW) } };
+var setId = "B", parts, total, ans, cur = 0, L = "ABCD";
+function useSet(id) { setId = id; KEY = SETS[id].key; parts = SETS[id].d.parts; total = SETS[id].d.total; ans = load(); cur = 0; }
+useSet("A");
+function qs(p) { return p.items.filter(function (i) { return i.q; }); }
+function el(t, c, x) { var e = document.createElement(t); if (c) e.className = c; if (x != null) e.textContent = x; return e; }
+
+function render() {
+  var sets = document.getElementById("sets"); sets.textContent = "";
+  Object.keys(SETS).forEach(function (id) {
+    var b = el("button", "", SETS[id].label); b.setAttribute("aria-selected", id === setId);
+    b.onclick = function () { useSet(id); render(); window.scrollTo(0, 0); };
+    sets.appendChild(b);
+  });
+  var tabs = document.getElementById("tabs"); tabs.textContent = "";
+  parts.forEach(function (p, i) {
+    var items = qs(p), d = items.filter(function (q) { return ans[q.n] != null; }).length;
+    var b = el("button", "", p.name); b.setAttribute("role", "tab"); b.setAttribute("aria-selected", i === cur);
+    b.appendChild(el("small", "", d + "/" + items.length));
+    b.onclick = function () { cur = i; render(); window.scrollTo(0, 0); };
+    tabs.appendChild(b);
+  });
+  var done = 0, right = 0;
+  parts.forEach(function (p) { qs(p).forEach(function (q) { if (ans[q.n] != null) { done++; if (ans[q.n] === q.a) right++; } }); });
+  document.getElementById("pb").style.width = (done / total * 100) + "%";
+  document.getElementById("st1").textContent = "ตอบแล้ว " + done + "/" + total;
+  document.getElementById("st2").textContent = "ถูก " + right + " ข้อ";
+
+  var app = document.getElementById("app"); app.textContent = "";
+  var p = parts[cur];
+  app.appendChild(el("p", "res", p.tip));
+  p.items.forEach(function (it) {
+    if (it.pass) {
+      var d = el("div", "pass"); d.appendChild(el("h3", "", it.pass));
+      it.paras.forEach(function (t) { d.appendChild(el("p", "", t)); });
+      app.appendChild(d); return;
+    }
+    var c = el("div", "q"); c.appendChild(el("p", "", it.n + ". " + it.q));
+    var got = ans[it.n];
+    it.o.forEach(function (t, k) {
+      var b = el("button", "opt", L[k] + ". " + t);
+      if (got != null) {
+        b.disabled = true;
+        if (k === it.a) b.className += " ok"; else if (k === got) b.className += " no";
+      } else b.onclick = function () { ans[it.n] = k; save(); var y = window.scrollY; render(); window.scrollTo(0, y); };
+      c.appendChild(b);
+    });
+    if (got != null) c.appendChild(el("p", "res", got === it.a ? "ถูกต้อง" : "คำตอบที่ถูกคือ " + L[it.a] + ". " + it.o[it.a]));
+    app.appendChild(c);
+  });
+  var s = el("div", "sum"); s.appendChild(el("strong", "", "สรุปคะแนน"));
+  parts.forEach(function (pp) {
+    var it = qs(pp), r = it.filter(function (q) { return ans[q.n] === q.a; }).length, a = it.filter(function (q) { return ans[q.n] != null; }).length;
+    var row = el("div"); row.appendChild(el("span", "", pp.name));
+    row.appendChild(el("span", "", r + "/" + it.length + (a < it.length ? " (ตอบแล้ว " + a + ")" : "")));
+    s.appendChild(row);
+  });
+  var rb = el("button", "act", "เริ่มทำใหม่"); rb.onclick = function () { ans = {}; save(); cur = 0; render(); window.scrollTo(0, 0); };
+  s.appendChild(rb); app.appendChild(s);
+}
+render();
+</script>
+</body>
+</html>
